@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.topnav a {
+  text-shadow: none;
+  color: grey;
+}
+
+.topnav {
+  display: block;
+}
+
+#right-nav  {
+  float: right;
+}
+#left-nav {
+  float: left;
+}
+#sign-in {
+  background-color: #4585F4;
+  color: white;
+  text-decoration: none;
+  line-height: 28px;
+  border-radius: 2px;
+  font-size:13px;
+}

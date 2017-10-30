@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="./style.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="g-logo.ico" type="image/x-icon">
     <title>Google</title>
   </head>
 
   <body>
     <!-- Navigation bar sits on top -->
-    <header>
-      <div class="topnav">
-
+    <header class="section topnav">
+      <div class="section">
         <div id="left-nav">
           <a href="#">About</a>
           <a href="#">Store</a>
         </div>
-
         <div id="right-nav">
-          <a href="#">Gmail</a>
-          <a href="#">Images</a>
+          <div id="right-nav-links">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+          </div>
+
           <i class="material-icons">apps</i>
           <a class="sign-in" href="#">Sign in</a>
         </div>
@@ -27,14 +29,13 @@
 
     <!-- Search form -->
 
-    <div class="search-form">
+    <div class="section" id="search-form">
       <div id="center-logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" height="92" max-width="272">
       </div>
 
-
         <form class="search-bar">
-          <input type="search">
+          <input id="search-area" type="search">
           <div id="search-buttons">
             <input type="button" value="Google Search">
             <input type="button" value="I'm Feeling Lucky">
@@ -44,7 +45,7 @@
 
     <!-- footer sits on bottom -->
 
-    <footer>
+    <footer class="section" id="foot-bar">
       <div class="foot-left">
         <a href="#">Advertising</a>
         <a href="#">Business</a>
