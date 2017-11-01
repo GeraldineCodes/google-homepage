@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="Styles/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="g-logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/g-logo.ico" type="image/x-icon">
     <title>Google</title>
   </head>
 
@@ -16,13 +16,12 @@
           <a href="#">Store</a>
         </div>
         <div id="right-nav">
-          <div id="right-nav-links">
-            <a href="#">Gmail</a>
-            <a href="#">Images</a>
-          </div>
-
-          <i class="material-icons">apps</i>
-          <a class="sign-in" href="#">Sign in</a>
+          <ul>
+            <li><a href="#" id="right-nav-links">Gmail</a></li>
+            <li><a href="#" id="right-nav-links">Images</a></li>
+            <li><a href="#" title="Google apps"><i class="material-icons">apps</i></a></li>
+            <li class="sign-in"><a href="#">Sign in</a></li>
+          </ul>
         </div>
       </div>
     </header>
@@ -35,11 +34,14 @@
       </div>
 
         <form class="search-bar">
+
           <input id="search-area" type="search">
+
           <div id="search-buttons">
             <input type="button" value="Google Search">
             <input type="button" value="I'm Feeling Lucky">
           </div>
+
         </form>
     </div>
 
