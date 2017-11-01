@@ -139,6 +139,7 @@ form {
   padding: 0 10px;
   background-color: #e8e8e8;
   color: black;
+  opacity: 0.70;
   font-weight: bold;
   border: 1px #e8e8e8 solid;
   border-radius: 2px;
@@ -146,6 +147,10 @@ form {
   position: relative;
 }
 
+#search-buttons input:hover {
+  border: 1px grey solid;
+  color: black;
+}
 
 
 
